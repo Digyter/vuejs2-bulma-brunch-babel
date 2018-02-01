@@ -1,0 +1,53 @@
+{
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "serve": "json-server --watch ./app/assets/cars.json --port 3334",
+    "start": "brunch watch --server & npm run serve",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "animejs": "^2.0.2",
+    "bulma": "^0.2.3",
+    "css-loader": "^0.28.5",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.14.1",
+    "stylus-brunch": "^2.7.2",
+    "vue": "^2.0.3",
+    "vue-2-bulma-pagination": "0.0.8",
+    "vue-admin": "^0.1.12",
+    "vue-bulma": "0.0.35",
+    "vue-bulma-breadcrumb": "^1.0.0",
+    "vue-filter": "^0.2.1",
+    "vue-lory": "0.0.5",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.0.1",
+    "vue-template-compiler": "^2.5.9",
+    "vue2-filters": "^0.2.0",
+    "vuex": "^2.3.1",
+    "vuex-router-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "babel-brunch": "^6.0.6",
+    "babel-core": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-runtime": "^6.18.0",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "json-server": "^0.12.1",
+    "node-sass": "^4.5.3",
+    "postcss-brunch": "^2.0.3",
+    "uglify-es": "^3.2.0",
+    "vue-brunch": "1.1.3",
+    "vue-loader": "^13.0.4",
+    "vueify-insert-css": "^1.0.0"
+  }
+}
